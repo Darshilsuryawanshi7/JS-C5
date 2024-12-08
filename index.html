@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in JS</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+  </body>
+  <script>
+    var person = {
+      Name: "Xyz Abc",
+      Age: 13,
+      Height: 177, 
+    };
+    document.getElementById("demo").innerHTML = "I am " + person.Name + " , I am " + person["Age"] + " years old. " + " I am " + person.Height + " cm tall."
+  </script>
+</html>
